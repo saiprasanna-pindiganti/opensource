@@ -1,0 +1,7 @@
+x=int(input())
+k=int(input())
+k=k-1
+mask=1<<k
+
+y=x&mask!=0
+print(str(y).lower())
